@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f51397b-8d71-4182-94e9-85c7ba87d6de" name="Changes" comment="Wrote more Setup.py">
+      <change afterPath="$PROJECT_DIR$/data/133-153-s5-jokes-and-riddles.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sp-4543.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.chainlit/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/.chainlit/config.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ingest.py" beforeDir="false" afterPath="$PROJECT_DIR$/ingest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vectorstore/db_faiss/index.faiss" beforeDir="false" afterPath="$PROJECT_DIR$/vectorstore/db_faiss/index.faiss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vectorstore/db_faiss/index.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/vectorstore/db_faiss/index.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/model.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +29,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -59,13 +64,19 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\spenc\OneDrive\Documents\GitHub\Alpha_AI_Application\data" />
       <recent name="C:\Users\spenc\PycharmProjects\pythonProject\data" />
       <recent name="C:\Users\spenc\PycharmProjects\pythonProject\vectorstore\db_faiss" />
       <recent name="C:\Users\spenc\PycharmProjects\pythonProject" />
       <recent name="C:\Users\spenc\PycharmProjects\pythonProject\llama-2-13b-chat" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ingest">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="conda activate" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.model">
     <configuration name="3easy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PAA-NLP-ALPHA" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,8 +165,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Alpha_AI_Application" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.model" />
         <item itemvalue="Python.ingest" />
         <item itemvalue="Python.3easy" />
         <item itemvalue="Python.main (1)" />
@@ -183,7 +217,11 @@
       <workItem from="1708531004275" duration="1322000" />
       <workItem from="1708544860473" duration="621000" />
       <workItem from="1708610522197" duration="2903000" />
-      <workItem from="1708696426733" duration="2313000" />
+      <workItem from="1708696426733" duration="3019000" />
+      <workItem from="1708997824962" duration="308000" />
+      <workItem from="1709047290839" duration="1458000" />
+      <workItem from="1712861366621" duration="3561000" />
+      <workItem from="1713277336945" duration="5320000" />
     </task>
     <task id="LOCAL-00001" summary="Wrote more Setup.py">
       <option name="closed" value="true" />
@@ -206,6 +244,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PAA_NLP_ALPHA$main.coverage" NAME="main Coverage Results" MODIFIED="1707847105958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PAA_NLP_ALPHA$3easy.coverage" NAME="3easy Coverage Results" MODIFIED="1708300168655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Alpha_AI_Application$model.coverage" NAME="model Coverage Results" MODIFIED="1709047519383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PAA_NLP_ALPHA$ingest.coverage" NAME="ingest Coverage Results" MODIFIED="1708535159769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PAA_NLP_ALPHA$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1707848257260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GenerativeAIExamples-0.3.0/examples/5_mins_rag_no_gpu" />
     <SUITE FILE_PATH="coverage/PAA_NLP_ALPHA$nlp_Home.coverage" NAME="nlp-Home Coverage Results" MODIFIED="1693960718644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

@@ -78,7 +78,7 @@ async def start():
 
 @cl.on_message
 async def main(message: cl.Message):
-    chain = cl.user_session.get("chain") 
+    chain = cl.user_session.get("chain")
     cb = cl.AsyncLangchainCallbackHandler(
         stream_final_answer=True, answer_prefix_tokens=["FINAL", "ANSWER"]
     )

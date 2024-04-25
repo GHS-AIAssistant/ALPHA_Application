@@ -33,9 +33,10 @@ multi_modal = true
 
 # Allows user to use speech to text
 [features.speech_to_text]
-    enabled = false
+    enabled = true
+    language = "en-US"
     # See all languages here https://github.com/JamesBrill/react-speech-recognition/blob/HEAD/docs/API.md#language-string
-    # language = "en-US"
+
 
 [UI]
 # Name of the app and chatbot.
@@ -43,6 +44,7 @@ name = "Alpha"
 
 # Show the readme while the thread is empty.
 show_readme_as_default = true
+
 
 # Description of the app and chatbot. This is used for HTML tags.
 # description = ""
